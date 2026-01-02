@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;           /* На всю ширину родителя */
+  max-width: 1200px;     /* Но не больше 1200px */
+  margin: 0 auto;        /* Центрирование */
+  padding: 0 15px;     /* Отступы по бокам на мобильных */
+}
+
+.header {
+  width: 100%;
+}
+
+.header-nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* hero */
+
+.hero-img {
+    max-width: 100%;
+}
