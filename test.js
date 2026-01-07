@@ -80,3 +80,25 @@ switch(number) {
   case(3):
     alert('2 или 3')
 }
+
+//task
+function checkAge(age) {
+  return (age > 18) ? true : confirm('ttafa'); 
+}
+
+function checkAge2(age) {
+  return (age > 18) || confirm('tafa');
+}
+
+//task
+function min(a, b) {
+  return (a < b) ? a : b;
+}
+
+//task
+const pow = (x, n) => x ** n;
+
+// TASK ARROW FUNCTIONS
+let ask = (q, y, n) => (confirm(q)) ? y() : n();
+
+ask('sdasda', () => alert('vi soglsasilis'), alert('hell naw'));
