@@ -62,3 +62,21 @@ for (let i = 2; i <= n; i++) {
     alert(i); // или console.log(i)
   }
 }
+
+// task
+let browser;
+if (browser == 'Edge') alert('у тя эдж');
+  else if (browser == 'chrome' || 'firefox' || 'safari' || 'opera') alert('we supp that too');
+  else alert('hope som ok');
+
+//task
+let number = prompt('введите число')
+switch(number) {
+  case(0):
+    alert(0)
+  case(1):
+    alert(1)
+  case(2):
+  case(3):
+    alert('2 или 3')
+}
