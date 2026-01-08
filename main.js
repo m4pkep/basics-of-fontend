@@ -179,3 +179,9 @@ ask(
 // СТРЕЛОЧНЫЕ ФУНКЦИИ
 let func = (arg1, arg2, ...argN) => expression;
 
+describe("pow", function() {
+
+  it("возводит в степень n", function() {
+    assert.equal(pow(2, 3), 8);
+  });
+});
