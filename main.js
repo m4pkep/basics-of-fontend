@@ -217,3 +217,39 @@ let user5 = {};
 user5["like me"] = true;
 delete user5["like me"];
 
+let fruit = prompt("какой взять", "apple");
+
+let bag = {
+  [fruit]: 5,
+};
+alert(bag.apple)
+
+function makeUser(name, age) {
+  return {
+    name: name,
+    age: age
+  };
+}
+
+let user6 = makeUser("Jack", 30);
+alert(user6.name); // Jack
+
+// вместо name: name, можно писать просто name
+let q1 = {
+  name,
+  age: 30,
+}
+
+// имена свойств могут быть зарезервированными словами никаких ограничений нет
+let q = {
+  let: 1,
+  const: 234,
+};
+
+// оператор для проверки наличия свойства в объекте in
+alert("key" in q); // false
+
+for (key in q) {
+  alert('smth');
+}
+
